@@ -1,0 +1,203 @@
+
+ html {
+    overflow-x: hidden;
+ }
+body {
+    font-family: 'Alata';
+}
+
+
+
+ h2 {
+ }
+
+ h5 {
+    font-weight: 600;
+ }
+
+ a {
+    cursor: pointer;
+    color: #1abc9c;
+    text-decoration: none;
+ }
+
+ a:hover {
+    text-decoration:none;
+    color: #1abc9c;
+    opacity: 0.9;
+ }
+
+ hr {
+    border-top: 5px solid #1abc9c;
+    width: 80px;
+    padding-bottom: 20px;
+ }
+
+
+ .colour-splash {
+    color: #1abc9c;
+ }
+
+ .section-primary span {
+    color: #1abc9c;
+    font-weight: bolder;
+    opacity: 1;
+ }
+
+
+
+
+
+
+
+
+
+ .section-image {
+ 	background: #151515 url(./images.ararat.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    display:table;
+ }
+
+ .img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #111111;
+    opacity: .7;
+ }
+
+ .intro {
+    vertical-align: middle;
+    text-align: center;
+    display:table-cell;
+    -webkit-transform: translateY(-2.1rem);
+    -ms-transform: translateY(-2.1rem);
+    transform: translateY(-2.1rem);
+}
+
+.intro .row {
+    margin-right: 0;
+    margin-left:0;
+}
+
+.intro h1 {
+    font-size: 84px;
+}
+
+.intro h5 {
+    color: #1abc9c;
+    font-size: 1.3rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.section-image span {
+    text-transform: uppercase;
+    font-size: 1.4em;
+    padding: 0 10px;
+    font-weight: 100;
+}
+
+.section-image h1 {
+    margin-top: 0;
+}
+
+.section-image p {
+    font-weight: lighter;
+    opacity: 0.9;
+}
+
+
+
+.social {
+  margin: 0 10px;
+  padding-top: 1.3em;
+  text-align: center;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.social a {
+  color: white;
+  text-decoration:none;
+  padding: 2em;
+}
+
+.social a:hover{
+  opacity: 0.6;
+}
+
+.social-footer {
+    position: block;
+    padding: 15px;
+}
+
+.social-footer a {
+    color: white;
+    text-decoration: none;
+    padding: 0.6em;
+    font-size: 1.7em;
+}
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+    .social a {
+        padding: 0.4em;
+        font-size: 0.9em;
+    }
+
+
+    .intro-desc {
+        font-size: 0.7em;
+    }
+
+    .section-image span {
+        font-size: 1em;
+        padding: 0 1px;
+
+}
+
+    .intro h1 {
+        font-size: 50px;
+        padding-top: 15px;
+    }
+
+
+
+.pic {
+    width: 100%;
+    height: 220%;
+    position: absolute;
+    top: -105px;
+    right: -20px;
+}
+
+.fly{
+	
+	position: fixed;
+	left: 120%;
+	bottom: -10px;
+	transform: translate(-50%, -50%);
+	margin: 0 auto;
+}
+
+.phone{
+	
+	font-size:20px;
+}
